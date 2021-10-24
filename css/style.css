@@ -90,8 +90,8 @@ body {
     width: 40%;
     display: block;
     border-radius: 2px;
-    ;
     margin: 120px 70px;
+    top: 20px;
 }
 
 .container h1 {
