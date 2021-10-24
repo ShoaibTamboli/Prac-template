@@ -1,12 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap');
+
 body {
     margin: 0;
     padding: 0;
     background: url('/Images/gymbackground.jpg');
-
+    background-repeat: no-repeat;
+    font-family: 'Baloo Bhai 2', cursive;
 }
 
 .logo {
-    border: 2px solid yellow;
+    /* border: 2px solid yellow; */
     color: white;
     display: inline-block;
     position: absolute;
@@ -15,7 +18,8 @@ body {
 }
 
 .logo img {
-    width: 120px;
+    width: 130px;
+    height: 80px
 }
 
 .logo div {
@@ -24,7 +28,7 @@ body {
 }
 
 .nav {
-    border: 2px solid rgb(5, 183, 189);
+    /* border: 2px solid rgb(5, 183, 189); */
     color: white;
     width: 39%;
     margin: 20px auto;
@@ -54,10 +58,78 @@ body {
 }
 
 .right {
-    border: 2px solid greenyellow;
+    /* border: 2px solid greenyellow; */
     color: white;
     display: inline-block;
     position: absolute;
-    right: 10px;
+    right: 30px;
     top: 20px;
+}
+
+.btn {
+    padding: 07px;
+    background-color: rgb(36, 35, 35);
+    color: white;
+    margin: 0px 5px;
+    top: 20px;
+    border-radius: 10px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.btn:hover {
+    color: rgb(27, 26, 26);
+    cursor: pointer;
+    background: white;
+
+}
+
+.container {
+
+    border: 2px solid white;
+    height: 480px;
+    width: 40%;
+    display: block;
+    border-radius: 2px;
+    ;
+    margin: 120px 70px;
+}
+
+.container h1 {
+    color: white;
+    text-align: center;
+}
+
+.form-group {
+    padding: 4px 0px;
+    font-family: 'Baloo Bhai 2', cursive;
+
+
+}
+
+.form-group input {
+    padding: 10px;
+    font-size: 16px;
+    font-family: 'Baloo Bhai 2', cursive;
+    border-radius: 5px;
+    margin: 11px;
+
+}
+
+form {
+    margin: auto;
+    display: block;
+    width: 33%;
+
+}
+
+.submit-btn {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+.submit-btn:hover {
+    background-color: black;
+    color: white;
 }
